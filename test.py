@@ -9,6 +9,6 @@ x = int(where[1])
 
 img = cv2.imread("whereIs/where.jpg")
 cv2.rectangle(img, (x-2,y-2),(x+62, y+62),(0,0,0), 3)
-cv2.imshow("s",img)
+cv2.imshow("s", img)
 cv2.waitKey(0)
 
